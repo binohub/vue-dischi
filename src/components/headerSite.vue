@@ -1,6 +1,6 @@
 <template>
   <header class="d-flex align-items-center"> 
-
+    
     <div class="uwuContainer">
       <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
