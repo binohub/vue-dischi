@@ -1,12 +1,88 @@
 <template>
   <div id="songElement">
 
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
+    <div class="card bg-dark">
+
+      <img class="card-img-top" src="https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/97\/Eric_Clapton_OMCOMR.jpg"
+        alt="song">
+      <div class="card-body d-flex flex-column align-items-center justify-content-center">
+        <h5 class="card-title">ONE MORE CAR, ONE MORE RAIDER</h5>
+        <p class="card-text card-artist">Eric Clapton</p>
+        <p class="card-text card-year">1982</p>
       </div>
+
+    </div>
+
+    <div class="card bg-dark">
+
+      <img class="card-img-top" src="https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/97\/Eric_Clapton_OMCOMR.jpg"
+        alt="song">
+      <div class="card-body d-flex flex-column align-items-center justify-content-center">
+        <h5 class="card-title">ONE MORE CAR, ONE MORE RAIDER</h5>
+        <p class="card-text card-artist">Eric Clapton</p>
+        <p class="card-text card-year">1982</p>
+      </div>
+
+    </div>
+
+    <div class="card bg-dark">
+
+      <img class="card-img-top" src="https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/97\/Eric_Clapton_OMCOMR.jpg"
+        alt="song">
+      <div class="card-body d-flex flex-column align-items-center justify-content-center">
+        <h5 class="card-title">ONE MORE CAR, ONE MORE RAIDER</h5>
+        <p class="card-text card-artist">Eric Clapton</p>
+        <p class="card-text card-year">1982</p>
+      </div>
+
+    </div>
+
+    <div class="card bg-dark">
+
+      <img class="card-img-top" src="https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/97\/Eric_Clapton_OMCOMR.jpg"
+        alt="song">
+      <div class="card-body d-flex flex-column align-items-center justify-content-center">
+        <h5 class="card-title">ONE MORE CAR, ONE MORE RAIDER</h5>
+        <p class="card-text card-artist">Eric Clapton</p>
+        <p class="card-text card-year">1982</p>
+      </div>
+
+    </div>
+
+    <div class="card bg-dark">
+
+      <img class="card-img-top" src="https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/97\/Eric_Clapton_OMCOMR.jpg"
+        alt="song">
+      <div class="card-body d-flex flex-column align-items-center justify-content-center">
+        <h5 class="card-title">ONE MORE CAR, ONE MORE RAIDER</h5>
+        <p class="card-text card-artist">Eric Clapton</p>
+        <p class="card-text card-year">1982</p>
+      </div>
+
+    </div>
+
+    <div class="card bg-dark">
+
+      <img class="card-img-top" src="https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/97\/Eric_Clapton_OMCOMR.jpg"
+        alt="song">
+      <div class="card-body d-flex flex-column align-items-center justify-content-center">
+        <h5 class="card-title">ONE MORE CAR, ONE MORE RAIDER</h5>
+        <p class="card-text card-artist">Eric Clapton</p>
+        <p class="card-text card-year">1982</p>
+      </div>
+
+    </div>
+
+    <div class="card bg-dark">
+
+      <img class="card-img-top" src="https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/97\/Eric_Clapton_OMCOMR.jpg"
+        alt="song">
+      <div class="card-body d-flex flex-column align-items-center justify-content-center">
+        <h5 class="card-title">ONE MORE CAR, ONE MORE RAIDER</h5>
+        <p class="card-text card-artist">Eric Clapton</p>
+        <p class="card-text card-year">1982</p>
+      </div>
+
     </div>
 
   </div>
@@ -20,4 +96,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+#songElement {
+  color: white;
+
+  .card-title {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .card-text {
+    color: lightgray;
+    font-weight: bold;
+    font-size: .5rem;
+  }
+}
 </style>
