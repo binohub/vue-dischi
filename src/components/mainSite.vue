@@ -1,9 +1,7 @@
 <template>
   <div id="mainSite">
-    <div class="uwuContainer">
-      <h1>main</h1>
+
       <listMusics />
-    </div>
     
   </div>
 </template>

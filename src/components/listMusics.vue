@@ -1,7 +1,15 @@
 <template>
-  <div>
-    <h2>music lists</h2>
-    <songElement />
+  <div id="listMusics">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <songElement />
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </template>
 
@@ -9,9 +17,9 @@
 import songElement from './songElement.vue';
 
 export default {
-    components: {
-        songElement,
-    }
+  components: {
+    songElement,
+  }
 }
 </script>
 
