@@ -3,12 +3,12 @@
 
     <div class="card bg-dark">
 
-      <img class="card-img-top" src="https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/97\/Eric_Clapton_OMCOMR.jpg"
+      <img class="card-img-top" :src="song.poster"
         alt="song">
       <div class="card-body d-flex flex-column align-items-center justify-content-center">
-        <h5 class="card-title">ONE MORE CAR, ONE MORE RAIDER</h5>
-        <p class="card-text card-artist">Eric Clapton</p>
-        <p class="card-text card-year">1982</p>
+        <h5 class="card-title">{{ song.title }}</h5>
+        <p class="card-text card-artist"> {{song.author}} </p>
+        <p class="card-text card-year">{{song.year}}</p>
       </div>
 
     </div>
@@ -18,6 +18,7 @@
 
 <script>
 export default {
+  props: ["song"],
 }
 </script>
 
@@ -26,6 +27,7 @@ export default {
 <style scoped lang="scss">
 #songElement {
   color: white;
+  padding: 2rem;
 
   .card-title {
     font-weight: bold;

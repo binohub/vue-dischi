@@ -9,14 +9,12 @@
 <script>
 import headerSite from './components/headerSite.vue';
 import mainSite from './components/mainSite.vue';
-import footerSite from './components/footerSite.vue';
 
 export default {
   name: 'App',
   components: {
     headerSite,
     mainSite,
-    footerSite,
   }
 }
 </script>

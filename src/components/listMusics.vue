@@ -3,9 +3,8 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-3">
-          <songElement />
-        </div>
+          <songElement class="col-3" :song="song"
+          v-for="(song, index) in songs" :key="index"/>
       </div>
     </div>
 
@@ -20,7 +19,7 @@ import axios from 'axios';
 export default {
   data: function(){
     return{
-
+      songs: [],
     }
   },
   components: {
@@ -30,9 +29,10 @@ export default {
     getSong(){
       //recupero i personaggi
       console.log("recupera i personaggi");
-      axios.get("")
+      axios.get("https://flynn.boolean.careers/exercises/api/array/music")
       .then((result) => {
-        console.log(result);
+        this.songs = result.data.response;
+        console.log(this.songs);
       })
       .catch((error) => {
         console.warn(error);
