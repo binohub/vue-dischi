@@ -1,0 +1,36 @@
+<template>
+  <div id="app">
+    <headerSite />
+    <mainSite />
+    <footerSite />
+  </div>
+</template>
+
+<script>
+import headerSite from './components/headerSite.vue';
+import mainSite from './components/mainSite.vue';
+import footerSite from './components/footerSite.vue';
+
+export default {
+  name: 'App',
+  components: {
+    headerSite,
+    mainSite,
+    footerSite,
+  }
+}
+</script>
+
+<style lang="scss">
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
