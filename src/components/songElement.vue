@@ -1,7 +1,7 @@
 <template>
   <div id="songElement">
 
-    <div class="card bg-dark">
+    <div class="card">
 
       <img class="card-img-top" :src="song.poster"
         alt="song">
@@ -27,7 +27,13 @@ export default {
 <style scoped lang="scss">
 #songElement {
   color: white;
-  padding: 2rem;
+  margin: 1rem;
+
+  .card{
+    background-color: #2e3a46;
+
+      border-radius: 1rem;
+  }
 
   .card-title {
     font-weight: bold;

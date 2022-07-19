@@ -3,7 +3,7 @@
 
     <div class="container">
       <div class="row">
-          <songElement class="col-3" :song="song"
+          <songElement class="col-2" :song="song"
           v-for="(song, index) in songs" :key="index"/>
       </div>
     </div>

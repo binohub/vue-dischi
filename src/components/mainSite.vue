@@ -20,6 +20,7 @@ export default {
 <style scoped lang="scss">
 
 #mainSite{
+  height: 90vh;
   padding: 5rem;
   background-color: #1e2d3b;
 }
